@@ -80,14 +80,13 @@ def runner
   
   while over21 == true do 
     card_total = hit?(card_total)
-    if card_total >=21 
+    if card_total >= 21 
       end_game(card_total)
     end 
     display_card_total(card_total)
   end 
   
-end_game(card_total)
-
+  end_game(card_total)
   
 end
     
