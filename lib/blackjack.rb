@@ -76,7 +76,6 @@ def runner
   # code runner here
   welcome
   card_total = initial_round
-  total_temp = card_total
   over21 = card_total <= 21 
   
   while over21 == true do 
